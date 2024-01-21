@@ -1,0 +1,16 @@
+{
+  "name": "responsive-menu-nav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw-watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+    "tw-build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

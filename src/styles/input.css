@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *
+ * Any custom CSS added to a layer will only be  
+ * included in the final build. (output.css)
+ * */
+@layer components {
+  
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
