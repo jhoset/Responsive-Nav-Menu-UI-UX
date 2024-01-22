@@ -16,7 +16,7 @@
             <!-- TOP NAV -->
             <div class="fixed left-0 top-0 bg-nav-bg dark:bg-nav-bg-dark text-nav-text dark:text-nav-text-dark w-full h-[70px] 
                         shadow-sm shadow-topnav-shadow dark:shadow-topnav-shadow-dark
-                        flex gap-8 justify-between items-center my-0 mx-auto py-0 px-[30px]">
+                        flex gap-8 justify-between items-center my-0 mx-auto py-0 px-[30px] z-40">
                 <!-- SIDEBAR  OPEN/CLOSE BUTTON -->
                 <div class="flex items-center md:hidden">
                     <button id="sidebarOpenCloseButton" title="Open/Close Sidebar">
@@ -72,11 +72,11 @@
             </div>
             <!-- SIDEBAR -->
             <div id="sidebarInnerLayer"
-                 class="md:hidden fixed left-0 top-[70px] bg-nav-bg-dark w-full h-full bg-opacity-50 dark:bg-opacity-10 translate-x-[-100%]">
+                 class="md:hidden fixed left-0 top-[70px] bg-nav-bg-dark w-full h-full bg-opacity-50 dark:bg-opacity-10 translate-x-[-100%] z-50">
             </div>
             <div id="sidebar" class="md:hidden fixed left-0 top-[70px] bg-nav-bg dark:bg-nav-bg-dark text-nav-text dark:text-nav-text-dark w-[70%] h-full 
                         border-sidebar-border dark:border-sidebar-border-dark border-[1px] rounded-tr-lg translate-x-[-100%]
-                        transition-transform ease-in-out duration-[400ms]">
+                        transition-transform ease-in-out duration-[400ms] z-50">
                 <div id="sidebarContent" class="flex flex-col gap-16 h-[calc(100%-70px)] px-4 py-8">
                     <!-- LOGO & CLOSE BUTTON -->
                     <div>
