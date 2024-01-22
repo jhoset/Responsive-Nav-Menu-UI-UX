@@ -9,7 +9,18 @@
  * included in the final build. (output.css)
  * */
 @layer components {
-  
+  .topnav-menu-item {
+    @apply cursor-pointer font-medium relative w-fit block after:content-['']
+            after:absolute after:left-0 after:bottom-[-0.2rem] after:mt-0.5
+            after:bg-[#9D8435] after:h-[3px] after:w-full
+            after:scale-x-0 hover:after:scale-x-100
+            after:transition after:duration-300 after:origin-center
+  }
+  .sidebar-menu-option {
+    @apply flex items-center rounded-xl outline-0 gap-2 py-4 px-10
+            focus:bg-sidebar-menu-option-focus hover:bg-sidebar-menu-option-hover
+            dark:focus:bg-sidebar-menu-option-focus-dark dark:hover:bg-sidebar-menu-option-hover-dark;
+  }
 }
 
 * {
